@@ -1,9 +1,10 @@
 {
   "version": 2,
+  "framework": "create-react-app",
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node",
+      "use": "@vercel/static-build",
       "config": { "distDir": "build" }
     }
   ],
